@@ -22,7 +22,7 @@ import {
 //my imports
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/landing.css";
-import image from "./assets/WONDER-WOMAN-Main2.png";
+import image from "./assets/0.png";
 
 const ConnectButton = styled(WalletDialogButton)``;
 
