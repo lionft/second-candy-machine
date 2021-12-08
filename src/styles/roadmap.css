@@ -18,7 +18,15 @@
 .roadmapTitle {
   font-size: 4em;
 }
+#lastRoadmapPara {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .roadmapPara {
-  font-size: 2em;
+  font-size: 1.4em;
   margin: 1em 0 1em 0;
+  border-bottom: 5px solid #04baad;
+  padding: 10px;
 }

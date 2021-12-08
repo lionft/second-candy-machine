@@ -11,6 +11,7 @@
 }
 #aboutTitle {
   font-size: 5em;
+  border-bottom: 5px solid #04baad;
 }
 .aboutPara {
   font-size: 1.2em;

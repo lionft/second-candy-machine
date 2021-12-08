@@ -24,7 +24,13 @@
 }
 #landingTitle {
   font-size: 3.2em;
+  border-bottom: 5px solid #04baad;
 }
 #landingPara {
   font-size: 1.3em;
+}
+#connectBtn {
+  background-color: #04baad;
+  font-size: 3em;
+  font-weight: 500;
 }

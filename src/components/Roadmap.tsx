@@ -68,9 +68,11 @@ const Roadmap = () => {
                   </Row>
                   <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
-                      <p className="roadmapPara">
-                        Get listed on Moonrank and Magic Eden
-                      </p>
+                      <div id="lastRoadmapPara">
+                        <p className="roadmapPara">
+                          Get listed on Moonrank and Magic Eden
+                        </p>
+                      </div>
                     </Col>
                   </Row>
                 </Container>

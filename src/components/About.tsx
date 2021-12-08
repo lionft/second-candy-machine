@@ -31,28 +31,6 @@ const About = () => {
         temporibus, non iusto optio voluptatem reiciendis quibusdam facere
         atque, libero modi quo.
       </p>{" "}
-      <p className="aboutPara">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
-        ipsam autem, aspernatur possimus officia consectetur molestiae
-        temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
-        officia consectetur molestiae temporibus, non iusto optio voluptatem
-        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
-        aspernatur possimus officia consectetur molestiae temporibus, non iusto
-        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
-        ipsam autem, aspernatur possimus officia consectetur molestiae
-        temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
-        officia consectetur molestiae temporibus, non iusto optio voluptatem
-        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
-        aspernatur possimus officia consectetur molestiae temporibus, non iusto
-        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
-      </p>{" "}
     </div>
   );
 };

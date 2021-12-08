@@ -24,6 +24,7 @@
 }
 #descTitle {
   font-size: 3em;
+  border-bottom: 5px solid #04baad;
 }
 #descText {
   font-size: 1.2em;
