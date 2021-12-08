@@ -8,6 +8,7 @@ import Description from "./components/Description";
 import Information from "./components/Information";
 import Community from "./components/Community";
 import Roadmap from "./components/Roadmap";
+import About from "./components/About";
 
 import Home from "./Home";
 
@@ -114,6 +115,7 @@ const App = () => {
       <Community />
       <Information />
       <Roadmap />
+      <About />
     </div>
   );
 };
