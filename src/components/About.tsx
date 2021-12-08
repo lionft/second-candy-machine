@@ -9,9 +9,23 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
         ipsam autem, aspernatur possimus officia consectetur molestiae
         temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo.
-      </p>{" "}
-      <p className="aboutPara">
+        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
+        officia consectetur molestiae temporibus, non iusto optio voluptatem
+        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
+        aspernatur possimus officia consectetur molestiae temporibus, non iusto
+        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
+        ipsam autem, aspernatur possimus officia consectetur molestiae
+        temporibus, non iusto optio voluptatem reiciendis quibusdam facere
+        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
+        officia consectetur molestiae temporibus, non iusto optio voluptatem
+        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
+        aspernatur possimus officia consectetur molestiae temporibus, non iusto
+        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
         ipsam autem, aspernatur possimus officia consectetur molestiae
         temporibus, non iusto optio voluptatem reiciendis quibusdam facere
@@ -21,14 +35,24 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
         ipsam autem, aspernatur possimus officia consectetur molestiae
         temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo.
-      </p>{" "}
-      <p className="aboutPara">
+        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
+        officia consectetur molestiae temporibus, non iusto optio voluptatem
+        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
+        aspernatur possimus officia consectetur molestiae temporibus, non iusto
+        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
         ipsam autem, aspernatur possimus officia consectetur molestiae
         temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo.
-      </p>
+        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
+        officia consectetur molestiae temporibus, non iusto optio voluptatem
+        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
+        aspernatur possimus officia consectetur molestiae temporibus, non iusto
+        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
+      </p>{" "}
     </div>
   );
 };
