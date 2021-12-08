@@ -180,10 +180,10 @@ const Home = (props: HomeProps) => {
                 <h1 id="landingTitle">This is a title</h1>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet dolorem tempore autem repudiandae voluptatibus id?
-                  Voluptas expedita dolor debitis deserunt obcaecati illum odit
-                  soluta aliquam enim veritatis, odio quaerat impedit?
+                  Our goal with Grumpy Gorilla Gang is to create the #1 alpha
+                  group on Solana. Once the mint is sold out, we will add grape
+                  verification to our discord and have private channels to
+                  access the exclusive alpha group
                 </p>
                 {wallet && (
                   <p>

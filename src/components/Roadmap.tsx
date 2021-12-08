@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/roadmap.css";
-import roadmapImage from "../assets/roadmapImage.png";
+import roadmapImage from "../assets/0.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Roadmap = () => {
