@@ -1,0 +1,27 @@
+#landingComponent {
+  height: 100%;
+  width: 100%;
+  border: 2px solid blue;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#landingText {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#landingImgContainer {
+  height: 100%;
+  width: 100%;
+}
+#landingImg {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  object-fit: contain;
+}

@@ -1,7 +1,9 @@
 import "./App.css";
 import { useMemo } from "react";
 //my imports
+import "./styles/app.css";
 import NavbarComponent from "./components/NavbarComponent";
+import Landing from "./components/Landing";
 
 import Home from "./Home";
 
@@ -85,8 +87,9 @@ const App = () => {
   );
 
   return (
-    <div id="mainApp">
+    <div id="appComponent">
       <NavbarComponent />
+      <Landing />
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
