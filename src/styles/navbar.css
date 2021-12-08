@@ -13,4 +13,5 @@
 }
 #navbarTitle {
   color: white !important;
+  border-bottom: 5px solid #04baad;
 }
