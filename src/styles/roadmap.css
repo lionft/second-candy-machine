@@ -1,0 +1,13 @@
+#roadmapComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+.roadmapItem {
+  background-color: black;
+  color: white;
+}
