@@ -178,7 +178,7 @@ const Home = (props: HomeProps) => {
             <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
               <div id="landingText">
                 <h1 id="landingTitle">This is a title</h1>
-                <p>
+                <p id="landingPara">
                   {" "}
                   Our goal with Grumpy Gorilla Gang is to create the #1 alpha
                   group on Solana. Once the mint is sold out, we will add grape

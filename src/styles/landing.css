@@ -22,3 +22,9 @@
   width: 100%;
   object-fit: contain;
 }
+#landingTitle {
+  font-size: 3.2em;
+}
+#landingPara {
+  font-size: 1.3em;
+}

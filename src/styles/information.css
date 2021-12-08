@@ -19,8 +19,10 @@
 .infoTitle {
   color: white;
   background-color: black;
+  font-size: 5em;
 }
 .infoPara {
   color: white;
   background-color: black;
+  font-size: 1.2em;
 }

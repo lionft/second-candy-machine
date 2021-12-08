@@ -15,3 +15,10 @@
   justify-content: center;
   align-items: center;
 }
+.roadmapTitle {
+  font-size: 4em;
+}
+.roadmapPara {
+  font-size: 2em;
+  margin: 1em 0 1em 0;
+}

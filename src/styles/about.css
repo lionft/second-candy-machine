@@ -9,3 +9,9 @@
   width: 100%;
   padding: 0 10em 0 10em;
 }
+#aboutTitle {
+  font-size: 5em;
+}
+.aboutPara {
+  font-size: 1.2em;
+}
