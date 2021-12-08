@@ -19,6 +19,11 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
+//my imports
+import { Container, Row, Col } from "react-bootstrap";
+import "./styles/landing.css";
+import image from "./assets/WONDER-WOMAN-Main2.png";
+
 const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
@@ -167,59 +172,90 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      {wallet && (
-        <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-      )}
+      <div id="landingComponent">
+        <Container>
+          <Row>
+            <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
+              <div id="landingText">
+                <h1 id="landingTitle">This is a title</h1>
+                <p>
+                  {" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet dolorem tempore autem repudiandae voluptatibus id?
+                  Voluptas expedita dolor debitis deserunt obcaecati illum odit
+                  soluta aliquam enim veritatis, odio quaerat impedit?
+                </p>
+                {wallet && (
+                  <p>
+                    Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}
+                  </p>
+                )}
 
-      {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
+                {wallet && (
+                  <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
+                )}
 
-      {wallet && <p>Total Available: {itemsAvailable}</p>}
+                {wallet && <p>Total Available: {itemsAvailable}</p>}
 
-      {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+                {wallet && <p>Redeemed: {itemsRedeemed}</p>}
 
-      {wallet && <p>Remaining: {itemsRemaining}</p>}
+                {wallet && <p>Remaining: {itemsRemaining}</p>}
 
-      <MintContainer>
-        {!wallet ? (
-          <ConnectButton>Connect Wallet</ConnectButton>
-        ) : (
-          <MintButton
-            disabled={isSoldOut || isMinting || !isActive}
-            onClick={onMint}
-            variant="contained"
-          >
-            {isSoldOut ? (
-              "SOLD OUT"
-            ) : isActive ? (
-              isMinting ? (
-                <CircularProgress />
-              ) : (
-                "MINT"
-              )
-            ) : (
-              <Countdown
-                date={startDate}
-                onMount={({ completed }) => completed && setIsActive(true)}
-                onComplete={() => setIsActive(true)}
-                renderer={renderCounter}
-              />
-            )}
-          </MintButton>
-        )}
-      </MintContainer>
+                <MintContainer>
+                  {!wallet ? (
+                    <ConnectButton>Connect Wallet</ConnectButton>
+                  ) : (
+                    <MintButton
+                      disabled={isSoldOut || isMinting || !isActive}
+                      onClick={onMint}
+                      variant="contained"
+                    >
+                      {isSoldOut ? (
+                        "SOLD OUT"
+                      ) : isActive ? (
+                        isMinting ? (
+                          <CircularProgress />
+                        ) : (
+                          "MINT"
+                        )
+                      ) : (
+                        <Countdown
+                          date={startDate}
+                          onMount={({ completed }) =>
+                            completed && setIsActive(true)
+                          }
+                          onComplete={() => setIsActive(true)}
+                          renderer={renderCounter}
+                        />
+                      )}
+                    </MintButton>
+                  )}
+                </MintContainer>
 
-      <Snackbar
-        open={alertState.open}
-        autoHideDuration={6000}
-        onClose={() => setAlertState({ ...alertState, open: false })}
-      >
-        <Alert
-          onClose={() => setAlertState({ ...alertState, open: false })}
-          severity={alertState.severity}
-        >
-          {alertState.message}
-        </Alert>
-      </Snackbar>
+                <Snackbar
+                  open={alertState.open}
+                  autoHideDuration={6000}
+                  onClose={() => setAlertState({ ...alertState, open: false })}
+                >
+                  <Alert
+                    onClose={() =>
+                      setAlertState({ ...alertState, open: false })
+                    }
+                    severity={alertState.severity}
+                  >
+                    {alertState.message}
+                  </Alert>
+                </Snackbar>
+              </div>
+            </Col>
+            <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
+              <div id="landingImgContainer">
+                <img id="landingImg" src={image} alt="" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </main>
   );
 };
