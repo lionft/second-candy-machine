@@ -34,3 +34,14 @@
   font-size: 3em;
   font-weight: 500;
 }
+.walletPara {
+  color: #04baad;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+#mintBtn {
+  background-color: #04baad;
+  font-size: 2em;
+  font-weight: 500;
+  color: white;
+}

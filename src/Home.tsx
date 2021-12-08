@@ -186,20 +186,30 @@ const Home = (props: HomeProps) => {
                   access the exclusive alpha group
                 </p>
                 {wallet && (
-                  <p>
+                  <p className="walletPara">
                     Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}
                   </p>
                 )}
 
                 {wallet && (
-                  <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
+                  <p className="walletPara">
+                    Balance: {(balance || 0).toLocaleString()} SOL
+                  </p>
                 )}
 
-                {wallet && <p>Total Available: {itemsAvailable}</p>}
+                {wallet && (
+                  <p className="walletPara">
+                    Total Available: {itemsAvailable}
+                  </p>
+                )}
 
-                {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+                {wallet && (
+                  <p className="walletPara">Redeemed: {itemsRedeemed}</p>
+                )}
 
-                {wallet && <p>Remaining: {itemsRemaining}</p>}
+                {wallet && (
+                  <p className="walletPara">Remaining: {itemsRemaining}</p>
+                )}
 
                 <MintContainer>
                   {!wallet ? (
@@ -208,6 +218,7 @@ const Home = (props: HomeProps) => {
                     </ConnectButton>
                   ) : (
                     <MintButton
+                      id="mintBtn"
                       disabled={isSoldOut || isMinting || !isActive}
                       onClick={onMint}
                       variant="contained"
