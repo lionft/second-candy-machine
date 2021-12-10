@@ -16,22 +16,16 @@ const Information = () => {
           </Col>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div className="infoTextGroup">
-              <h1 className="infoTitle">Title</h1>
+              <h1 className="infoTitle">Alpha Group</h1>
               <p className="infoPara">
-                The 3 roles we plan to add are @Gorilla Recruit, @Gorilla
-                Soldier, and @Gorilla General. The Gorilla Recruits will have
-                access to all of the private channels and will be able to climb
-                up the ranks if they so desire. The Gorilla Soldiers will have
-                to prove their loyalty to the other troops by giving away
-                helpful information to the other members, we will be monitoring
-                the chat to find the most big brain and helpful members. There
-                can only be one Gorilla General, the General will be rewarded
-                1-5 Sol a week as long as they remain in power, for a general to
-                remain in power they will have to work harder and smarter than
-                the soldiers in the troop. We will be monitoring the chat to see
-                whose alpha is on point and every week I will evaluate the top
-                three Gorilla Soldiers and put a poll up to see who is the
-                biggest brain Gorilla.
+                Our alpha group is the main utility behind Grumpy Gorilla Gang,
+                which will be the most powerful alpha on the Blockchain! Our
+                goal is to create a hyper competitive environment by
+                incentivizing our troops in our discord through rewards and
+                payouts via Sol. You can climb the ranks and compete to be the
+                Gorilla General that will be given Solana weekly! To find out
+                more about becoming the Gorilla General, please come check out
+                our Discord.
               </p>
             </div>
           </Col>
@@ -39,19 +33,16 @@ const Information = () => {
         <Row>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div className="infoTextGroup">
-              <h1 className="infoTitle">Title</h1>
+              <h1 className="infoTitle">The Vision</h1>
               <p className="infoPara">
-                The amount of Solana the Gorilla General gets is based on the
-                Solana made inside the Troops Lounge. If we see the majority of
-                the gorilla recruits/soldiers living large eating bananas then
-                the payout will be 5 Solana. If only select troops are eating
-                but the alpha is still powerful then a payout of 2-4 Solana. If
-                hardly any members are winning then the Gorilla General will get
-                a payout of 1 Sol. If a Gorilla General remains in power for
-                over 4 weeks straight then we will give them the option of
-                giving 4 of the soldiers of their choice 1 Solana each that the
-                Gorilla Overlord will pay for using the royalties on the
-                secondary market.
+                We understand that Solana NFTs is a place where people can go
+                from a little capital to an actual sizable amount. Some people
+                have the ability to call NFTs consistently and earn multiples of
+                their capital. Some of these people have no influence or
+                network. Our main goal is to give the power to the people and
+                create a decentralized alpha group that rewards our top members.
+                Anybody can become the General and guide our troops to victory!
+                The real question is who will it be?
               </p>
             </div>
           </Col>
@@ -61,7 +52,7 @@ const Information = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div className="infoImgContainer">
               <img src={image3} alt="" className="infoImg" />
@@ -83,7 +74,7 @@ const Information = () => {
               </p>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );

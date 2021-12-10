@@ -177,13 +177,13 @@ const Home = (props: HomeProps) => {
           <Row>
             <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
               <div id="landingText">
-                <h1 id="landingTitle">This is a title</h1>
+                <h1 id="landingTitle">Grumpy Gorilla Gang</h1>
                 <p id="landingPara">
                   {" "}
-                  Our goal with Grumpy Gorilla Gang is to create the #1 alpha
-                  group on Solana. Once the mint is sold out, we will add grape
-                  verification to our discord and have private channels to
-                  access the exclusive alpha group
+                  400 Grumpy Gorillas eating bananas on the Solana Blockchain!
+                  <br />
+                  <br />
+                  “The #1 Alpha Group On Solana”
                 </p>
                 {wallet && (
                   <p className="walletPara">
