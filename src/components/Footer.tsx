@@ -8,7 +8,7 @@ import twitterIcon from "../assets/twitter.svg";
 const Footer = () => {
   return (
     <div id="footerComponent">
-      <p>2021 some NFT collection</p>
+      <p>Grumpy Gorilla Gang</p>
       <img src={discordIcon} alt="" />
       <img src={youtubeIcon} alt="" />
       <img src={instaIcon} alt="" />

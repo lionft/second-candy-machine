@@ -26,7 +26,7 @@ const NavbarComponent = () => {
               <Nav.Link className="navText" href="#landingComponent">
                 Home
               </Nav.Link>
-              <Nav.Link className="navText" href="#roadmapContainer">
+              <Nav.Link className="navText" href="#roadmapComponent">
                 Roadmap
               </Nav.Link>
               <Nav.Link className="navText" href="#aboutComponent">
