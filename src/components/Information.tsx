@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/information.css";
 import image1 from "../assets/1.png";
 import image2 from "../assets/2.png";
 import image3 from "../assets/3.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Information = () => {
+  //this aos is for the transition animations
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div id="informationComponent">
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div className="infoImgContainer">
-              <img src={image1} alt="" className="infoImg" />
+              <img
+                data-aos="flip-left"
+                src={image1}
+                alt=""
+                className="infoImg"
+              />
             </div>
           </Col>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
