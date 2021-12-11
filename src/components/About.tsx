@@ -6,30 +6,9 @@ const About = () => {
     <div id="aboutComponent">
       <h1 id="aboutTitle">About us</h1>
       <p className="aboutPara">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
-        ipsam autem, aspernatur possimus officia consectetur molestiae
-        temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
-        officia consectetur molestiae temporibus, non iusto optio voluptatem
-        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
-        aspernatur possimus officia consectetur molestiae temporibus, non iusto
-        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
-        ipsam autem, aspernatur possimus officia consectetur molestiae
-        temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Quam amet iste ipsam autem, aspernatur possimus
-        officia consectetur molestiae temporibus, non iusto optio voluptatem
-        reiciendis quibusdam facere atque, libero modi quo. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Quam amet iste ipsam autem,
-        aspernatur possimus officia consectetur molestiae temporibus, non iusto
-        optio voluptatem reiciendis quibusdam facere atque, libero modi quo.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet iste
-        ipsam autem, aspernatur possimus officia consectetur molestiae
-        temporibus, non iusto optio voluptatem reiciendis quibusdam facere
-        atque, libero modi quo.
+        Grumpy Gorilla Gang is a generative art collection of 400 Gorillas
+        living on the Solana Blockchain! The Grumpy Gorillas NFTs main purpose
+        is to serve as a completely decentralized Solana NFT Alpha Group.
       </p>{" "}
     </div>
   );
