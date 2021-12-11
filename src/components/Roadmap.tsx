@@ -15,6 +15,16 @@ const Roadmap = () => {
         Release the 400 Gorillas via a Stealth Launch sometime between December
         9th at 10:00 PM UTC and December 12th at 10:00 PM UTC.
       </p>
+      <h2 className="phaseTitle">Phase 2</h2>
+      <p className="roadPara">
+        Add Grape Verification to the Discord Server.
+      </p>{" "}
+      <p className="roadPara">
+        Implement new roles for the gorilla holders/soldiers and begin the
+        process of creating the most powerful alpha group on Solana.
+      </p>{" "}
+      <p className="roadPara">Launch Discord</p>{" "}
+      <p className="roadPara">Get listed on Moonrank and Magic Eden</p>
     </div>
   );
 };

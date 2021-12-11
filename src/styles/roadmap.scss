@@ -12,6 +12,12 @@ $white: #ffffff;
   font-size: 5em;
   border-bottom: 5px solid #04baad;
 }
+.phaseTitle {
+  font-size: 3em;
+  border: 2px dashed #04baad;
+  margin: 1em;
+  padding: 10px;
+}
 .roadPara {
   font-size: 1em;
   line-height: 1.75em;
@@ -26,6 +32,7 @@ $white: #ffffff;
   color: white;
   width: 90%;
   text-align: center;
+  font-size: 2em;
 }
 //odd number borders
 .roadPara:nth-child(odd) {
