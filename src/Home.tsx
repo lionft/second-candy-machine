@@ -4,6 +4,9 @@ import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import * as anchor from "@project-serum/anchor";
 
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
@@ -162,6 +165,7 @@ const Home = (props: HomeProps) => {
         setBalance(balance / LAMPORTS_PER_SOL);
       }
     })();
+    Aos.init({ duration: 2000 });
   }, [wallet, props.connection]);
 
   useEffect(refreshCandyMachineState, [
@@ -263,7 +267,7 @@ const Home = (props: HomeProps) => {
             </Col>
             <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
               <div id="landingImgContainer">
-                <img id="landingImg" src={image} alt="" />
+                <img id="landingImg" data-aos="zoom-in" src={image} alt="" />
               </div>
             </Col>
           </Row>

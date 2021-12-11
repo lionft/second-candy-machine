@@ -59,7 +59,12 @@ const Information = () => {
           </Col>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div className="infoImgContainer">
-              <img src={image2} alt="" className="infoImg" />
+              <img
+                data-aos="flip-right"
+                src={image2}
+                alt=""
+                className="infoImg"
+              />
             </div>
           </Col>
         </Row>
