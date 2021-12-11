@@ -14,7 +14,30 @@ import "../styles/navbar.css";
 const NavbarComponent = () => {
   return (
     <div id="navbarComponent">
-      <Navbar id="navbarStyling" bg="dark" expand={false} fixed="top">
+      <Navbar id="navbarStyling" bg="dark" expand="lg" fixed="top">
+        <Container>
+          <Navbar.Brand id="navbarTitle" href="#landingComponent">
+            {" "}
+            Grumpy Gorilla Gang
+          </Navbar.Brand>
+          <Navbar.Toggle id="menuBtn" aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link className="navText" href="#landingComponent">
+                Home
+              </Nav.Link>
+              <Nav.Link className="navText" href="#roadmapContainer">
+                Roadmap
+              </Nav.Link>
+              <Nav.Link className="navText" href="#aboutComponent">
+                About us
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      {/* <Navbar id="navbarStyling" bg="dark" expand={false} fixed="top">
         <Container fluid>
           <Navbar.Brand id="navbarTitle" href="#">
             Grumpy Gorilla Gang
@@ -39,7 +62,7 @@ const NavbarComponent = () => {
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 };

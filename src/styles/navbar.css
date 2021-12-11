@@ -1,17 +1,14 @@
-#offcanvasNavbar {
-  background-color: black !important;
-  color: white;
-}
 #navbarStyling {
-  height: 8em !important;
+  /* height: 8em !important; */
 }
-#offcanvasNavbarDropdown {
-  color: white !important;
-}
+
 #menuBtn {
   background-color: #144441 !important;
 }
 #navbarTitle {
   color: white !important;
   border-bottom: 5px solid #04baad;
+}
+.navText {
+  color: white !important;
 }

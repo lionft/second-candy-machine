@@ -40,7 +40,9 @@ Release the 400 Gorillas via a Stealth Launch sometime between December 9th at 1
 Phase 2:
 Add Grape Verification to the Discord Server.
 Implement new roles for the gorilla holders/soldiers and begin the process of creating the most powerful alpha group on Solana.
-Get listed on Moonrank and Magic EdenAbout Us:Grumpy Gorilla Gang is a generative art collection of 400 Gorillas living on the Solana Blockchain! The Grumpy Gorillas NFTs main purpose is to serve as a completely decentralized Solana NFT Alpha Group.
+Get listed on Moonrank and Magic Eden
+
+About Us:Grumpy Gorilla Gang is a generative art collection of 400 Gorillas living on the Solana Blockchain! The Grumpy Gorillas NFTs main purpose is to serve as a completely decentralized Solana NFT Alpha Group.
 
 about us
 Grumpy Gorilla Gang is a generative art collection of 400 Gorillas living on the Solana Blockchain! The Grumpy Gorillas NFTs main purpose is to serve as a completely decentralized Solana NFT Alpha Group.

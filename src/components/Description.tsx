@@ -8,13 +8,13 @@ import { Container, Row, Col } from "react-bootstrap";
 const Description = () => {
   return (
     <div id="descriptionComponent">
-      <h1 id="descTitle">This is another title</h1>
+      {/* <h1 id="descTitle">This is another title</h1>
       <p id="descText">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
         voluptatibus soluta, dolore provident est culpa eaque nulla distinctio
         eos placeat maxime! Eveniet reiciendis aut beatae facere facilis
         deleniti unde praesentium?
-      </p>
+      </p> */}
       <div id="descImages">
         <Container>
           <Row>

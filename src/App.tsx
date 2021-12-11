@@ -113,11 +113,12 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
-      <Description />
-      <Community />
+      {/* <Community /> */}
       <Information />
       <Roadmap />
       <FAQ />
+      <Description />
+
       <About />
       <Footer />
     </div>
