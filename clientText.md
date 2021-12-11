@@ -28,3 +28,19 @@ Our alpha group is the main utility behind Grumpy Gorilla Gang, which will be th
 Section 4:
 Title: The Vision
 We understand that Solana NFTs is a place where people can go from a little capital to an actual sizable amount. Some people have the ability to call NFTs consistently and earn multiples of their capital. Some of these people have no influence or network. Our main goal is to give the power to the people and create a decentralized alpha group that rewards our top members. Anybody can become the General and guide our troops to victory! The real question is who will it be?
+
+---
+
+hase 1:
+Generate Artwork for 400 Gorillas
+Launch Twitter
+Launch Discord
+Release the 400 Gorillas via a Stealth Launch sometime between December 9th at 10:00 PM UTC and December 12th at 10:00 PM UTC.
+
+Phase 2:
+Add Grape Verification to the Discord Server.
+Implement new roles for the gorilla holders/soldiers and begin the process of creating the most powerful alpha group on Solana.
+Get listed on Moonrank and Magic EdenAbout Us:Grumpy Gorilla Gang is a generative art collection of 400 Gorillas living on the Solana Blockchain! The Grumpy Gorillas NFTs main purpose is to serve as a completely decentralized Solana NFT Alpha Group.
+
+about us
+Grumpy Gorilla Gang is a generative art collection of 400 Gorillas living on the Solana Blockchain! The Grumpy Gorillas NFTs main purpose is to serve as a completely decentralized Solana NFT Alpha Group.

@@ -10,6 +10,7 @@ import Community from "./components/Community";
 import Roadmap from "./components/Roadmap";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import FAQ from "./components/FAQ";
 
 import Home from "./Home";
 
@@ -116,6 +117,7 @@ const App = () => {
       <Community />
       <Information />
       <Roadmap />
+      <FAQ />
       <About />
       <Footer />
     </div>
