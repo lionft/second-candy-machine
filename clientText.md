@@ -31,7 +31,7 @@ We understand that Solana NFTs is a place where people can go from a little capi
 
 ---
 
-hase 1:
+Phase 1:
 Generate Artwork for 400 Gorillas
 Launch Twitter
 Launch Discord
