@@ -13,7 +13,7 @@ const Roadmap = () => {
       <p className="roadPara">Launch Discord</p>{" "}
       <p className="roadPara">
         Release the 400 Gorillas via a Stealth Launch sometime between December
-        9th at 10:00 PM UTC and December 12th at 10:00 PM UTC.
+        12th at 10:00 PM UTC and December 15th at 10:00 PM UTC.
       </p>
       <h2 className="phaseTitle">Phase 2</h2>
       <p className="roadPara">
