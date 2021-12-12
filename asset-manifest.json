@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/second-candy-machine/static/css/main.a6c7c281.chunk.css",
-    "main.js": "/second-candy-machine/static/js/main.df85d37d.chunk.js",
-    "main.js.map": "/second-candy-machine/static/js/main.df85d37d.chunk.js.map",
+    "main.css": "/second-candy-machine/static/css/main.19b42cc7.chunk.css",
+    "main.js": "/second-candy-machine/static/js/main.ce61f24f.chunk.js",
+    "main.js.map": "/second-candy-machine/static/js/main.ce61f24f.chunk.js.map",
     "runtime-main.js": "/second-candy-machine/static/js/runtime-main.52595e9d.js",
     "runtime-main.js.map": "/second-candy-machine/static/js/runtime-main.52595e9d.js.map",
     "static/css/2.d3d759d6.chunk.css": "/second-candy-machine/static/css/2.d3d759d6.chunk.css",
@@ -12,13 +12,15 @@
     "static/js/3.1f9ee3cb.chunk.js.map": "/second-candy-machine/static/js/3.1f9ee3cb.chunk.js.map",
     "index.html": "/second-candy-machine/index.html",
     "static/css/2.d3d759d6.chunk.css.map": "/second-candy-machine/static/css/2.d3d759d6.chunk.css.map",
-    "static/css/main.a6c7c281.chunk.css.map": "/second-candy-machine/static/css/main.a6c7c281.chunk.css.map",
+    "static/css/main.19b42cc7.chunk.css.map": "/second-candy-machine/static/css/main.19b42cc7.chunk.css.map",
     "static/js/2.f63c2892.chunk.js.LICENSE.txt": "/second-candy-machine/static/js/2.f63c2892.chunk.js.LICENSE.txt",
-    "static/media/0.626f07fd.png": "/second-candy-machine/static/media/0.626f07fd.png",
     "static/media/1.63236f53.png": "/second-candy-machine/static/media/1.63236f53.png",
     "static/media/2.d85d303f.png": "/second-candy-machine/static/media/2.d85d303f.png",
     "static/media/3.f018319d.png": "/second-candy-machine/static/media/3.f018319d.png",
+    "static/media/app.css": "/second-candy-machine/static/media/bg_empty.b0f627c5.png",
     "static/media/discord.c97e04e9.svg": "/second-candy-machine/static/media/discord.c97e04e9.svg",
+    "static/media/ico_1.afd19854.gif": "/second-candy-machine/static/media/ico_1.afd19854.gif",
+    "static/media/icon.a3e34c8a.gif": "/second-candy-machine/static/media/icon.a3e34c8a.gif",
     "static/media/insta.c45b4444.svg": "/second-candy-machine/static/media/insta.c45b4444.svg",
     "static/media/twitter.5a5ef6a7.svg": "/second-candy-machine/static/media/twitter.5a5ef6a7.svg",
     "static/media/youtube1.133cc783.svg": "/second-candy-machine/static/media/youtube1.133cc783.svg"
@@ -27,7 +29,7 @@
     "static/js/runtime-main.52595e9d.js",
     "static/css/2.d3d759d6.chunk.css",
     "static/js/2.f63c2892.chunk.js",
-    "static/css/main.a6c7c281.chunk.css",
-    "static/js/main.df85d37d.chunk.js"
+    "static/css/main.19b42cc7.chunk.css",
+    "static/js/main.ce61f24f.chunk.js"
   ]
 }
