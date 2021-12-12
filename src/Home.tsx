@@ -26,8 +26,7 @@ import {
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/landing.css";
 import image from "./assets/0.png";
-import landingIcon from "./assets/icon.gif";
-import backgroundImg from "./assets/GGG_Server (1) (1)/bg_empty.png";
+import landingIcon from "./assets/ico_1.gif";
 
 const ConnectButton = styled(WalletDialogButton)``;
 

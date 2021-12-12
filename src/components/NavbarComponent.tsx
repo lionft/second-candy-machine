@@ -10,6 +10,7 @@ import {
   Button,
 } from "react-bootstrap";
 import "../styles/navbar.css";
+import navIcon from "../assets/icon.gif";
 
 const NavbarComponent = () => {
   return (
@@ -18,7 +19,10 @@ const NavbarComponent = () => {
         <Container>
           <Navbar.Brand id="navbarTitle" href="#landingComponent">
             {" "}
-            Grumpy Gorilla Gang
+            {/* Grumpy Gorilla Gang */}
+            <div id="navbarLogoContainer">
+              <img src={navIcon} alt="" id="navbarLogo" />
+            </div>
           </Navbar.Brand>
           <Navbar.Toggle id="menuBtn" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -1,5 +1,6 @@
-#navbarStyling {
+#navbarComponent {
   /* height: 8em !important; */
+  margin-bottom: 8em;
 }
 
 #menuBtn {
@@ -11,4 +12,11 @@
 }
 .navText {
   color: white !important;
+}
+#navbarLogoContainer {
+  height: 5em;
+}
+#navbarLogo {
+  height: 100%;
+  width: 100%;
 }
