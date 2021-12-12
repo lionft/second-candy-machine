@@ -26,6 +26,8 @@ import {
 import { Container, Row, Col } from "react-bootstrap";
 import "./styles/landing.css";
 import image from "./assets/0.png";
+import landingIcon from "./assets/icon.gif";
+import backgroundImg from "./assets/GGG_Server (1) (1)/bg_empty.png";
 
 const ConnectButton = styled(WalletDialogButton)``;
 
@@ -267,7 +269,12 @@ const Home = (props: HomeProps) => {
             </Col>
             <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
               <div id="landingImgContainer">
-                <img id="landingImg" data-aos="zoom-in" src={image} alt="" />
+                <img
+                  id="landingImg"
+                  data-aos="zoom-in"
+                  src={landingIcon}
+                  alt=""
+                />
               </div>
             </Col>
           </Row>

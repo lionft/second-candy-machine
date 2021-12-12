@@ -6,4 +6,5 @@
   background-color: black;
   color: white;
   font-family: "Orbitron", sans-serif;
+  background-image: url(../assets/bg_empty.png) !important;
 }
