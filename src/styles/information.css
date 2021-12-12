@@ -18,12 +18,12 @@
 }
 .infoTitle {
   color: white;
-  background-color: black;
+  /* background-color: black; */
   font-size: 5em;
   border-bottom: 5px solid #04baad;
 }
 .infoPara {
   color: white;
-  background-color: black;
+  /* background-color: black; */
   font-size: 1.2em;
 }

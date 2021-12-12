@@ -19,7 +19,7 @@ const FAQ = () => {
               <h1 className="faqTitle">When can you mint?</h1>
               <p className="faqPara">
                 This is a stealth launch, launching will be sometime between
-                December 12th at 10:00 PM UTC and December 15th at 10:00 PM UTC.
+                December 12th and December 15th.
               </p>
             </div>
           </Col>
