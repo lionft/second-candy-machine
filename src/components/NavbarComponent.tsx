@@ -30,8 +30,14 @@ const NavbarComponent = () => {
               <Nav.Link className="navText" href="#landingComponent">
                 Home
               </Nav.Link>
+              <Nav.Link className="navText" href="#bannerComponent">
+                Mint
+              </Nav.Link>
               <Nav.Link className="navText" href="#roadmapComponent">
                 Roadmap
+              </Nav.Link>
+              <Nav.Link className="navText" href="#faqContainer">
+                FAQ
               </Nav.Link>
               <Nav.Link className="navText" href="#aboutComponent">
                 About us
