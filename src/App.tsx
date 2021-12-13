@@ -112,6 +112,7 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
+      <Landing />
       <Information />
       <Roadmap />
       <FAQ />
