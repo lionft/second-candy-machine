@@ -1,6 +1,11 @@
 #navbarComponent {
   /* height: 8em !important; */
   margin-bottom: 8em;
+  height: 100%;
+  width: 100%;
+}
+#navbarStyling {
+  width: 100% !important;
 }
 
 #menuBtn {

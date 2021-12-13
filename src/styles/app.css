@@ -7,4 +7,6 @@
   color: white;
   font-family: "Orbitron", sans-serif;
   background-image: url(../assets/bg_empty.png) !important;
+  /* to get rid of the empty space caused by navbar */
+  overflow-x: hidden;
 }

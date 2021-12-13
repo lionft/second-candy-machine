@@ -96,7 +96,6 @@ const App = () => {
   return (
     <div id="appComponent">
       <NavbarComponent />
-      {/* <Landing /> */}
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
@@ -113,7 +112,6 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
-      {/* <Community /> */}
       <Information />
       <Roadmap />
       <FAQ />

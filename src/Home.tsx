@@ -27,7 +27,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./styles/landing.css";
 import image from "./assets/0.png";
 import landingIcon from "./assets/ico_1.gif";
-
+import banner from "./assets/banner.png";
 const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
@@ -178,6 +178,9 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <div id="landingComponent">
+        <div id="bannerContainer">
+          <img id="banner" src={banner} alt="" />
+        </div>
         <Container>
           <Row>
             <Col xs={6} md={6} sm={6} xl={6} lg={6} xxl={6}>
