@@ -18,8 +18,8 @@ const FAQ = () => {
             <div data-aos="fade-right" className="faqDiv">
               <h1 className="faqTitle">When can you mint?</h1>
               <p className="faqPara">
-                This is a stealth launch, launching will be sometime between
-                December 12th and December 15th.
+                This is a stealth launch, launching will be on December 14th at
+                10pm UTC.
               </p>
             </div>
           </Col>

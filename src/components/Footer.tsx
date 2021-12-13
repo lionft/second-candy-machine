@@ -8,11 +8,15 @@ import twitterIcon from "../assets/twitter.svg";
 const Footer = () => {
   return (
     <div id="footerComponent">
-      <p>Grumpy Gorilla Gang</p>
-      <img src={discordIcon} alt="" />
-      <img src={youtubeIcon} alt="" />
-      <img src={instaIcon} alt="" />
-      <img src={twitterIcon} alt="" />
+      <p id="footerPara">Grumpy Gorilla Gang</p>
+      <a href="https://discord.com/invite/f9Ps6hY8qF" target="_blank">
+        <img src={discordIcon} alt="" />
+      </a>
+      <a href="https://twitter.com/GorillaAlphaNFT" target="_blank">
+        <img src={twitterIcon} alt="" />
+      </a>
+      {/* <img src={youtubeIcon} alt="" />
+      <img src={instaIcon} alt="" /> */}
     </div>
   );
 };

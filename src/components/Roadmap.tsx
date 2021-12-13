@@ -25,8 +25,8 @@ const Roadmap = () => {
         Launch Discord
       </p>{" "}
       <p data-aos="zoom-out" className="roadPara">
-        Release the 400 Gorillas via a Stealth Launch sometime between December
-        12th at 10:00 PM UTC and December 15th at 10:00 PM UTC.
+        Release the 400 Gorillas via a Stealth Launch on December 14th at 10pm
+        UTC.
       </p>
       <h2 data-aos="zoom-out" className="phaseTitle">
         Phase 2
