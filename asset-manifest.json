@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/second-candy-machine/static/css/main.86573502.chunk.css",
-    "main.js": "/second-candy-machine/static/js/main.6d63fda6.chunk.js",
-    "main.js.map": "/second-candy-machine/static/js/main.6d63fda6.chunk.js.map",
+    "main.css": "/second-candy-machine/static/css/main.cfbf6f9c.chunk.css",
+    "main.js": "/second-candy-machine/static/js/main.59a96fd3.chunk.js",
+    "main.js.map": "/second-candy-machine/static/js/main.59a96fd3.chunk.js.map",
     "runtime-main.js": "/second-candy-machine/static/js/runtime-main.80572a0f.js",
     "runtime-main.js.map": "/second-candy-machine/static/js/runtime-main.80572a0f.js.map",
     "static/css/2.d3d759d6.chunk.css": "/second-candy-machine/static/css/2.d3d759d6.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.6908f849.chunk.js.map": "/second-candy-machine/static/js/3.6908f849.chunk.js.map",
     "index.html": "/second-candy-machine/index.html",
     "static/css/2.d3d759d6.chunk.css.map": "/second-candy-machine/static/css/2.d3d759d6.chunk.css.map",
-    "static/css/main.86573502.chunk.css.map": "/second-candy-machine/static/css/main.86573502.chunk.css.map",
+    "static/css/main.cfbf6f9c.chunk.css.map": "/second-candy-machine/static/css/main.cfbf6f9c.chunk.css.map",
     "static/js/2.3f6e7bbb.chunk.js.LICENSE.txt": "/second-candy-machine/static/js/2.3f6e7bbb.chunk.js.LICENSE.txt",
     "static/media/1.63236f53.png": "/second-candy-machine/static/media/1.63236f53.png",
     "static/media/2.d85d303f.png": "/second-candy-machine/static/media/2.d85d303f.png",
@@ -22,15 +22,13 @@
     "static/media/discord.c97e04e9.svg": "/second-candy-machine/static/media/discord.c97e04e9.svg",
     "static/media/ico_1.afd19854.gif": "/second-candy-machine/static/media/ico_1.afd19854.gif",
     "static/media/icon.a3e34c8a.gif": "/second-candy-machine/static/media/icon.a3e34c8a.gif",
-    "static/media/insta.c45b4444.svg": "/second-candy-machine/static/media/insta.c45b4444.svg",
-    "static/media/twitter.5a5ef6a7.svg": "/second-candy-machine/static/media/twitter.5a5ef6a7.svg",
-    "static/media/youtube1.133cc783.svg": "/second-candy-machine/static/media/youtube1.133cc783.svg"
+    "static/media/twitter.5a5ef6a7.svg": "/second-candy-machine/static/media/twitter.5a5ef6a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.80572a0f.js",
     "static/css/2.d3d759d6.chunk.css",
     "static/js/2.3f6e7bbb.chunk.js",
-    "static/css/main.86573502.chunk.css",
-    "static/js/main.6d63fda6.chunk.js"
+    "static/css/main.cfbf6f9c.chunk.css",
+    "static/js/main.59a96fd3.chunk.js"
   ]
 }
