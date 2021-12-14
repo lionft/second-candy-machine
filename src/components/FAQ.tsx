@@ -18,8 +18,8 @@ const FAQ = () => {
             <div data-aos="fade-right" className="faqDiv">
               <h1 className="faqTitle">When can you mint?</h1>
               <p className="faqPara">
-                This is a stealth launch, launching will be on December 14th at
-                10pm UTC.
+                This is a stealth launch, launching will be on December 15th at
+                7pm UTC.
               </p>
             </div>
           </Col>
@@ -29,7 +29,7 @@ const FAQ = () => {
             <div data-aos="fade-left" className="faqDiv">
               <h1 className="faqTitle">Where Grumpy Gorillas live?</h1>
               <p className="faqPara">
-                The Gorillas will be eating bananas on the Solana Blockchain
+                The Gorillas will be eating bananas on the Solana Blockchain.
               </p>
             </div>
           </Col>
