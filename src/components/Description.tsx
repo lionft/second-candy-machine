@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/description.css";
-import image1 from "../assets/1.png";
+import image1 from "../assets/4.png";
 import image2 from "../assets/2.png";
 import image3 from "../assets/3.png";
+import image4 from "../assets/0.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Description = () => {
@@ -25,17 +26,17 @@ const Description = () => {
             </Col>{" "}
             <Col xs={6} md={6} sm={6} xl={3} lg={6} xxl={3}>
               <div className="descImgContainer">
-                <img className="descImg" src={image2} alt="" />
-              </div>
-            </Col>{" "}
-            <Col xs={6} md={6} sm={6} xl={3} lg={6} xxl={3}>
-              <div className="descImgContainer">
                 <img className="descImg" src={image3} alt="" />
               </div>
             </Col>{" "}
             <Col xs={6} md={6} sm={6} xl={3} lg={6} xxl={3}>
               <div className="descImgContainer">
-                <img className="descImg" src={image1} alt="" />
+                <img className="descImg" src={image2} alt="" />
+              </div>
+            </Col>{" "}
+            <Col xs={6} md={6} sm={6} xl={3} lg={6} xxl={3}>
+              <div className="descImgContainer">
+                <img className="descImg" src={image4} alt="" />
               </div>
             </Col>
           </Row>
